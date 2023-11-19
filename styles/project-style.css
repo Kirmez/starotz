@@ -1,0 +1,28 @@
+.projects__list {
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-items: center;
+}
+
+.projects__title {
+    margin-top: 30px;
+}
+
+@media (max-width: 1200px) {
+    .projects__list {
+
+        grid-template-columns: 350px 350px;
+    }
+}
+@media (max-width: 750px) {
+    .projects__list {
+
+       display: flex;
+       flex-direction: column;
+       margin-top: 30px;
+    }
+}

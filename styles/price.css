@@ -1,0 +1,40 @@
+.projects__list {
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.projects__item {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects__price {
+    text-align: left;
+    
+
+    margin-left: 30px;
+}
+
+.projects__subtitle {
+    font-size: 30px;
+}
+
+.desc-price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .projects__item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects__price {
+        text-align: center;
+    }
+
+    .projects__subtitle {
+        font-size: 25px;
+    }
+}

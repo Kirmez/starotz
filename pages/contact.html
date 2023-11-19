@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <meta name="description"
+        content="BuzzHub – Your Gateway to Social Media Excellence. We don't just manage social media; we create digital experiences. Explore innovative SMM solutions designed to make your brand the talk of the town.">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styles/more-style.css">
+    <title>BuzzHub</title>
+</head>
+
+
+<body>
+    <header class="header">
+
+        <div class="header__wrapper">
+    
+            <a href="index.html" class="header__link">
+                <img src="/img/logo.png" alt="BH logo" class="header__logo">
+            </a>
+    
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="about.html" class="header__item-link">About Us</a>
+                </li>
+                <li class="header__item">
+                    <a href="projects.html" class="header__item-link">Projects</a>
+                </li>
+                <li class="header__item">
+                    <a href="price.html" class="header__item-link">Prices</a>
+                </li>
+                <li class="header__item">
+                    <a href="contact.html" class="header__item-link">Contact Us</a>
+                </li>
+            </ul>
+
+            <svg class="burger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" fill="rgba(247,242,242,1)"></path></svg>
+            <svg class="close-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z" fill="rgba(242,234,234,1)"></path></svg>
+        </div>
+
+        <div class="header__menu-mobile">
+            <ul class="header__menu-mobile-list">
+                <li class="header__item menu-mobile__item">
+                    <a href="about.html" class="header__item-link menu-mobile__link">About Us</a>
+                </li>
+                <li class="header__item menu-mobile__item">
+                    <a href="projects.html" class="header__item-link menu-mobile__link">Projects</a>
+                </li>
+                <li class="header__item menu-mobile__item">
+                    <a href="price.html" class="header__item-link menu-mobile__link">Prices</a>
+                </li>
+                <li class="header__item menu-mobile__item">
+                    <a href="contact.html" class="header__item-link menu-mobile__link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main class="main">
+        <section>
+            <h2>
+                Location
+            </h2>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231280.41390888253!2d55.06233946133561!3d25.076242065742434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDub%C3%A1i%20-%20Emiratos%20%C3%81rabes%20Unidos!5e0!3m2!1ses!2ses!4v1700309991204!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact" id="contacts">
+            <form action="#" name="contactForm" onsubmit="return validateForm()" class="contact__form">
+                <div class="contact__box">
+                    <div class="contact__wrapper">
+                        <label for="name" class="contact__label">
+                            Name
+                            <input type="text" name="name" id="name" class="contact__input contact__input--name" required>
+                        </label>
+                        <label for="email" class="contact__label">
+                            E-mail
+                            <input type="email" name="email" id="email" class="contact__input contact__input--email" required>
+                        </label>
+            
+                    </div>
+            
+                    <label for="message" class="contact__label">
+                        Message
+                        <textarea name="message" class="contact__textarea" id="message" cols="30" rows="10" style="resize: none;">
+            
+                        </textarea>
+                    </label>
+                </div>
+            
+                <button type="submit" class="contact__button btn">
+                    Send
+                </button>
+            
+                <label for="checkbox" class="contact__label checkbox">
+                    <a class="contact__link" href="privacy-policy.html">Privacy policy </a> 
+                    <span>I accept</span>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="contact__checkbox">
+                </label>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__logo">
+    
+                <img src="/img/logo.png" alt="BH logo" class="footer__logo">
+            </div>
+    
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="privacy-policy.html" class="footer__link-item">
+                        Privacy Policy
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a href="terms-conditions.html" class="footer__link-item">
+                        Terms and Conditions
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a href="disclaimer.html" class="footer__link-item">
+                        Disclaimer
+                    </a>
+                </li>
+            </ul>
+    
+            <ul class="footer__contacts-list">
+                <li class="footer__contacts-item">
+                    <a href="https://www.google.es/maps/place/Dub%C3%A1i+-+Emiratos+%C3%81rabes+Unidos/@25.0762424,55.0626829,11z/data=!3m1!4b1!4m6!3m5!1s0x3e5f43496ad9c645:0xbde66e5084295162!8m2!3d25.2048493!4d55.2707828!16zL20vMDFmMDhy?entry=ttu" class="footer__contacts-link">
+                        Location, Dubai
+                    </a>
+                   
+                </li>
+                <li class="footer__contacts-item">
+                    <a href="
+                    wa.link/3m3zhk" class="footer__contacts-link">
+                        +34 000 000 000
+                    </a>
+                   
+                   
+                </li>
+                <li class="footer__contacts-item">
+                    <a href="support@domain.com" class="footer__contacts-link">
+                        support@domain.com
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/form.js"></script>
+    <script src="/menuMobile.js"></script>
+</body>
+
+</html>
