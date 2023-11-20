@@ -6,7 +6,7 @@ function validateForm() {
     if (name == "" || email == "" || message == "") {
         return false;
     } else {
-        window.location.href = "thanks.html";
+        window.location.href = "/pages/thanks.html";
         return false;
     }
 }
